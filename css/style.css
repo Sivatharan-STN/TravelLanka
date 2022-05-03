@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(135, 67, 243, 0.801), rgba(7, 2, 82, 0.842)), url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo {
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title {
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+    /* letter-spacing: 10px; */
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+}
+
+.text-box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    align-items: center;
+}
+
+.heading-primary {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.main-logo {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 70px;
+    letter-spacing: 40px;
+    color: rgb(253, 191, 76);
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 13.5px;
+}
